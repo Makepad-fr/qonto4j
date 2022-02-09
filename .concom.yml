@@ -1,5 +1,5 @@
 configfilepath: /Users/kaanyagci/Documents/makepad/qonto4j/.concom.yml
-path: ""
+path: /Users/kaanyagci/Documents/makepad/qonto4j
 version: 0.0.1
 scopes:
     - name: config
@@ -32,6 +32,8 @@ scopes:
       description: All changes related transactions endpoint
     - name: wrapper
       description: All changes related to the API wrapper aka HTTPHandler
+    - name: exceptions
+      description: All changes related exceptions
 conventions:
     - name: build
       description: Changes that affect the build system or external dependencies
