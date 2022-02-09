@@ -45,6 +45,6 @@ public record ExternalTransfer(
       public BodySubscriber<ExternalTransfer> apply(ResponseInfo responseInfo) {
         return null;
       }
-    }
+    };
   }
 }
